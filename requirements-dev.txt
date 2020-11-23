@@ -1,0 +1,8 @@
+-r requirements.txt
+bandit
+black
+coverage
+flake8
+pylint
+pytest
+pytest-cov
