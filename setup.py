@@ -3,8 +3,6 @@ from setuptools import setup
 VERSION = "<Version>"
 install_reqs = open("requirements.txt").readlines()
 
-test_requirements = open("requirements-dev.txt").readlines()
-
 readme = open("README.md").read()
 
 setup(
@@ -23,7 +21,15 @@ setup(
             "src"
         ],
         package_dir={"src": "src"},
-        tests_require=test_requirements,
+        tests_require=[
+            "bandit",
+            "black",
+            "coverage",
+            "flake8",
+            "pylint",
+            "pytest",
+            "pytest-cov"
+        ],
         install_requires=install_reqs,
         license="MPL",
         zip_safe=False,
