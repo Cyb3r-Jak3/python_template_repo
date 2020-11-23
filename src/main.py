@@ -2,4 +2,5 @@
 
 
 def main():
+    """Filler main function"""
     return "HelloWorld"
