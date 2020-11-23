@@ -1,4 +1,5 @@
 """Filler Python"""
 
 
-print("HelloWorld")
+def main():
+    return "HelloWorld"
