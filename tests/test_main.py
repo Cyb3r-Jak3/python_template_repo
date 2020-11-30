@@ -1,5 +1,5 @@
-import src
+import python_gh_template
 
 
 def test_main():
-    assert src.main() == "HelloWorld"
+    assert python_gh_template.say_hello() == "HelloWorld"
