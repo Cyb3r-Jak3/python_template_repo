@@ -6,7 +6,7 @@ install_reqs = open("requirements.txt").readlines()
 readme = open("README.md").read()
 
 setup(
-        name="Python GitHub Template Template",
+        name="python_gh_template",
         version=__version__,
         description="Repo Template for creating a Python library in GitHub",
         long_description=readme,
