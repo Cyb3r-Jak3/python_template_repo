@@ -14,7 +14,7 @@ setup(
         author_email="jake@jwhite.network",
         url="https://github.com/Cyb3r-Jak3/python_template_repo",
         project_urls={
-            "Changelog": "https://github.com/Cyb3r-Jak3/python_template_repo/blob/master/CHANGELOG.md",
+            "Changelog": "https://github.com/Cyb3r-Jak3/python_template_repo/blob/main/CHANGELOG.md",
             "Issues": "https://github.com/Cyb3r-Jak3/python_template_repo/issues"
         },
         download_url="https://github.com/Cyb3r-Jak3/python_template_repo/releases/latest",
@@ -27,7 +27,7 @@ setup(
             "black>=20.8b1",
             "coverage>=5.3",
             "flake8>=3.8.4",
-            "pylint>=2.6.0"
+            "pylint>=2.6.0",
             "pytest>=6.1.2",
             "pytest-cov>=2.10.1"
         ],
