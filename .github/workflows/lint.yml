@@ -59,18 +59,9 @@ jobs:
         pip install --upgrade pip wheel
         pip install . -r requirements-dev.txt
 
-    - name: Python Black
-      run: black --check python_gh_template
+    - name: Lint
+      run: make lint
 
-    - name: Pylint
-      run: pylint python_gh_template
-
-    - name: Flake8
-      run: flake8 --statistics --show-source --count python_gh_template
-
-    - name: Bandit
-      run: bandit -r python_gh_template
-
-    - name: Tests
-      run: py.test --cov python_gh_template tests/ -vv
+    - name: Test
+      run: make test
 
