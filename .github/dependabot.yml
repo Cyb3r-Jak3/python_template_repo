@@ -1,7 +1,15 @@
 version: 2
 updates:
-- package-ecosystem: pip
-  directory: "/"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
+  - package-ecosystem: "pip"
+    directory: "/"
+    labels:
+        - "dependencies"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "Cyb3r-Jak3"
+    commit-message:
+      prefix: "Pip Update"
+    reviewers:
+      - "Cyb3r-Jak3"
+  open-pull-requests-limit: 3
