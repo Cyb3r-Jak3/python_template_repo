@@ -10,6 +10,7 @@ setup(
         version=__version__,
         description="Repo Template for creating a Python library in GitHub",
         long_description=readme,
+        long_description_content_type="text/markdown",
         author="Cyber_Jake",
         author_email="jake@jwhite.network",
         url="https://github.com/Cyb3r-Jak3/python_template_repo",
